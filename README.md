@@ -7,7 +7,7 @@
 为[Follow](https://follow.is/)做的一款`Scriptable`小组件脚本
 
 ### 链接
-[源码]((https://raw.githubusercontent.com/bmqy/scriptable-scripts/main/dist/follow.js))
+[源码](https://github.com/bmqy/scriptable-scripts/raw/refs/heads/master/dist/follow.js)
 
 ### 配置项
 - 显示分类
