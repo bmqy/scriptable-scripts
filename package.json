@@ -1,0 +1,43 @@
+{
+  "name": "scriptable-scripts",
+  "version": "1.0.1",
+  "description": "Development template and some scripts used for the iOS app [Scriptable](https://scriptable.app/).",
+  "main": "src",
+  "scripts": {
+    "dev": "rollup --config --watch --environment NODE_ENV:development",
+    "build": "rollup --config",
+    "clean": "rm -rf ./dist/*",
+    "prebuild": "npm run clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Honye/scriptable-scripts.git"
+  },
+  "keywords": [
+    "scriptable",
+    "scripts"
+  ],
+  "author": "Honye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Honye/scriptable-scripts/issues"
+  },
+  "homepage": "https://github.com/Honye/scriptable-scripts#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/eslint-parser": "^7.13.14",
+    "@babel/plugin-syntax-import-assertions": "^7.22.5",
+    "@babel/plugin-syntax-top-level-await": "^7.12.13",
+    "@types/node": "^18.14.6",
+    "@types/scriptable-ios": "^1.7.0",
+    "eslint": "^7.26.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "glob": "^7.2.0",
+    "rollup": "^3.29.2",
+    "rollup-plugin-serve": "^2.0.2"
+  }
+}
