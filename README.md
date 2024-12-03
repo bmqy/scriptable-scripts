@@ -15,6 +15,10 @@
 - 文字列表展示
 - 缩略图列表展示
 
+### 特别说明
+- 需要借助`BoxJs`，不知道的同学，到这里就可以放弃了。
+- 需要借助[@senku](https://github.com/chavyleung/scripts/blob/master/follow/follow.js)佬脚本使用的账号数据，这里不知道的同学，也可以放弃了。
+
 ## 特别鸣谢
 - [Honye](https://github.com/Honye/scriptable-scripts)
 - [dompling](https://github.com/dompling/Scriptable)
