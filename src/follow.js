@@ -1,7 +1,7 @@
 if (typeof require === 'undefined') require = importModule
 const { withSettings, writeSettings } = require('./withSettings.module')
 const { i18n, useCache, timeOffset } = require('./utils.module')
-const { httpRequest, getBoxJsData, renderHeader, renderNone, getRefreshTime, reopenScript } = require('./tools.module')
+const { httpRequest, getBoxJsData, renderHeader, renderNone, getRefreshTime } = require('./tools.module')
 
 const preference = {
   name: 'Follow',
@@ -293,7 +293,6 @@ const setColorRecommend = () => {
   preference.colorDark = colorRecommend.color
   preference.backgroundColorDark = colorRecommend.backgroundColor
   writeSettings(preference, { useICloud: preference.useICloud })
-  reopenScript()
 }
 
 await withSettings({

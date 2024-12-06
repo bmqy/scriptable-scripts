@@ -19,6 +19,22 @@
 - 需要借助`BoxJs`，不知道的同学，到这里就可以放弃了。
 - 需要借助[@senku](https://github.com/chavyleung/scripts/blob/master/follow/follow.js)佬脚本使用的账号数据，这里不知道的同学，也可以放弃了。
 
+### 更新日志
+
+#### 1.0.1
+- 同步@Honye的脚本更新
+- 优化代码
+
+#### 1.0.0
+- 发布
+
+### 预览
+![follow小组件](https://image.bmqy.net/upload/IMG_3807.jpeg)
+![follow小组件](https://image.bmqy.net/upload/IMG_3808.jpeg)
+![follow小组件](https://image.bmqy.net/upload/IMG_3804.jpeg)
+![follow小组件](https://image.bmqy.net/upload/IMG_3805.jpeg)
+
+
 ## 特别鸣谢
 - [Honye](https://github.com/Honye/scriptable-scripts)
 - [dompling](https://github.com/dompling/Scriptable)
