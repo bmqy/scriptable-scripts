@@ -229,7 +229,7 @@ const getListThumbStack = async (list, listStack) => {
     const thumb = rightStack.addImage(img)
     thumb.imageSize = new Size(40, 40)
     thumb.imageOpacity = data.media ? 1 : 0.5
-    rightStack.setPadding(10, 15, 0, 0)
+    rightStack.setPadding(13, 15, 0, 0)
   }
 }
 /**
