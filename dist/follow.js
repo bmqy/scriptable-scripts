@@ -1253,11 +1253,6 @@ const preference = {
   backgroundColorDark: '#1c1c1c'
 };
 
-const colorRecommend = {
-  color: '#fefefe',
-  backgroundColor: '#1c1c1c'
-};
-
 // 脚本内部变量
 let fontColor = new Color(preference.colorLight);
 const categoryOptions = [
@@ -1518,14 +1513,6 @@ const createWidget = async (data) => {
   return widget
 };
 
-const setColorRecommend = () => {
-  preference.colorLight = colorRecommend.color;
-  preference.backgroundColorLight = colorRecommend.backgroundColor;
-  preference.colorDark = colorRecommend.color;
-  preference.backgroundColorDark = colorRecommend.backgroundColor;
-  writeSettings(preference, { useICloud: preference.useICloud });
-};
-
 await withSettings({
   formItems: [
     {
@@ -1545,11 +1532,6 @@ await withSettings({
           label: i18n(['color dark', '夜间文字色']),
           media: '(prefers-color-scheme: dark)',
           default: preference.colorDark
-        },
-        {
-          name: 'useColorRecommend',
-          type: 'cell',
-          label: i18n(['color recommend', '推荐配色'])
         }
       ]
     },
@@ -1580,11 +1562,6 @@ await withSettings({
       default: preference.refreshAfterDate
     }
   ],
-  onItemClick: ({ name }) => {
-    if (name === 'useColorRecommend') {
-      setColorRecommend();
-    }
-  },
   homePage: 'https://github.com/bmqy/scriptable-scripts',
   render: async ({ settings, family }) => {
     family && (config.widgetFamily = family);
